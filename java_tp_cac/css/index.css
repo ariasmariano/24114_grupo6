@@ -11,6 +11,8 @@ nav{
     width: 100%;
     position: fixed;
     z-index:1;
+    position: relative;
+
 }
 .enlace-inicio{
     position: absolute;

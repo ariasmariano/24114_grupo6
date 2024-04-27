@@ -2,8 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Josefin Sans", sans-serif;
-}
+font-family:'Quicksand', sans-serif;}
 /* HEADER */
 nav{
     background-color: #4472de;
@@ -11,6 +10,8 @@ nav{
     width: 100%;
     position: fixed;
     z-index:1;
+    position: relative;
+
 }
 .enlace-inicio{
     position: absolute;
@@ -49,16 +50,82 @@ nav ul li a:hover{
     background-color: rgba(0, 0, 255, 0.418);
 }
 
+/* FIN HEADER */
 
-section{
-    background-color: red;
+
+main{
+    background-image: url(../img/contact.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
+h2{
+    padding: 24px;
+    text-align: center;
+    color: black;
+    font-size: 3rem;
+}
+
+form{
+    /* background-color: #CCDBFD; */
+    color: black;
+    padding: 1rem 2rem;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    background-color: #91d3f7;
+    margin-left: 10%;
+    border: 1px solid blue;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+form label {
+    font-weight: 900;
+    padding: 10px;
+}
+
+input {
+    width: 80%;
+    height: 30px;
+
+    border-radius: 5px;
+    border: 3px solid transparent;
+    font-size: 90%;
+}
+
+textarea{
+    margin: 15px 0;
+    height: 150px;
+    width: 80%;
+    border-radius: 10px;
+    font-size: 100%;
+    padding: 5px;
+}
+
+form button{
+    background-color: rgba(16, 36, 125, 0.721);
+    color: white;
+    font-weight: 900;
+    border: none;
+    font-size: 1.8rem;
+    padding: 21px;
+    border-radius: 10px;
+    
+    
+}
+
 
 
 /* FOOTER */
 
 
 footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    height: 5.5rem;   
     padding: 10px;
     text-align: center;
     background-color: #4472de;

@@ -11,6 +11,7 @@ nav{
     width: 100%;
     position: fixed;
     z-index:1;
+    position: relative;
 }
 .enlace-inicio{
     position: absolute;
@@ -58,16 +59,24 @@ nav ul li a:hover{
     flex-wrap: wrap;
 }
 
-.container-clases {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap; 
-    
+/* FIN HEADER */
+
+h2{
+    padding: 24px;
+    text-align: center;
+    color: black;
+    font-size: 3rem;
 }
+
+main{
+    background-color: #EDF2FB;
+}
+
 .main-clases{
     margin-top: 4%;
     padding-bottom: 2%;
 }
+
 
 
 .card{
@@ -89,7 +98,24 @@ nav ul li a:hover{
     width: 100%;
 }
 
+.linkear {
+    background-color: #4472DE;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 5px;
+    display: block;
+    margin: 15px 20px;
+    
+    
+}
+
+/* FOOTER */
+
 footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    height: 5.5rem;   
     padding: 10px;
     text-align: center;
     background-color: #4472de;

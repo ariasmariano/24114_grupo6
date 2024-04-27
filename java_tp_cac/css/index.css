@@ -49,7 +49,53 @@ nav ul li a:hover{
     background-color: rgba(0, 0, 255, 0.418);
 }
 
+body{
+    background-color: #E2EAFC;
+}
+h1{
+    color:black;
+    font-size: 4em;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 5px;   
+    padding-bottom: 5px;
+}
 
+h2{
+    color:rgb(54, 51, 51);
+    font-size: 4em;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: center;
+    align-items: center;
+}
+
+.parrafo_hero{
+    color:white;
+    font-size: 2em;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: center;
+}
+
+.col{
+    margin-top: 25px;
+    margin-right: 0,5px;
+    padding-top: 15px;
+    border:grey solid;
+    border-radius: 20px;
+}
+.div_serv{
+    background-color:#B6CCFE;
+    border:#ABC4FF;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    padding-bottom: 30px;
+    
+}
+   
+p{
+    color: black;
+    text-align: center;
+}
 
 /* FOOTER */
 

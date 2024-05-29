@@ -83,6 +83,9 @@ h2{
     padding-top: 15px;
     border:grey solid;
     border-radius: 20px;
+    height: 250px;
+    margin-left: 10px;
+    
 }
 .div_serv{
     background-color:#B6CCFE;

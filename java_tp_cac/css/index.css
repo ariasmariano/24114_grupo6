@@ -60,6 +60,7 @@ h1{
     font-family: 'Times New Roman', Times, serif;
     padding-top: 5px;   
     padding-bottom: 5px;
+    text-align: center;
 }
 
 h2{
@@ -100,6 +101,10 @@ h2{
 p{
     color: black;
     text-align: center;
+}
+
+a{
+    color: white;
 }
 
 /* FOOTER */
